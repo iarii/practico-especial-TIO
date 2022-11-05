@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <form action="">
+            <div class="texto">
+                <select id="combustible">
+                    <option value="diesel" name="diesel">Diesel</option>
+                    <option value="super" name="super">Super</option>
+                    <option value="premium" name="premium">Premium</option>
+                </select>
+                <input id="litros" placeholder="Litros" type="number" name="litros">
+                <button id="btn-enviar">Enviar</button>
+            </div>
+        </form>
+        <ul id="listado"></ul>
+        <div class="titulo">
+            <h1>Total de litros despachado:</h1>
+        </div>
+
+        <div class="total">
+            <select id="sumalitros">
+                <option value="">-Seleccionar-</option>
+                <option value="diesel" name="diesel">Diesel</option>
+                <option value="super" name = "super">Super</option>
+                <option value="premium" name="premium">Premium</option>
+            </select>
+            <p id="total_litros">Total de litros: 0</p>
+        </div>
+    </div>
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>
